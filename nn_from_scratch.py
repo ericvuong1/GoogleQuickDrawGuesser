@@ -1,6 +1,10 @@
 # x_train = x_train.reshape((num_examples, 10000))
 # y_train = keras.utils.to_categorical(y_train, num_classes)
 
+# TODOs
+# activation function for the last layer could be softmax
+# activation function for all other layers could be relu
+# tune the hyperparameters in a better way
 
 # activation function
 def sigmoid(x, deriv=False):
